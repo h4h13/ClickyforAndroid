@@ -5,10 +5,10 @@ Download the apk from files apk-release.apk above
 <b>Screen Shots:</b>
 <br>
 <link rel="stylesheet" href="github-markdown.css">
-<style>
-.center {
-  text-align: center;
-}
+<style type="text/css">
+	.center {
+		text-align: center;
+	}
 </style>
 <div class="center">
   <img src="https://github.com/h4h13/ClickyforAndroid/blob/master/imgs/screener_20150721(165549).png">
