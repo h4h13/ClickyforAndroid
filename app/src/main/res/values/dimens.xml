@@ -1,0 +1,42 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="margin_padding_4">4dp</dimen>
+    <dimen name="margin_padding_8">8dp</dimen>
+    <dimen name="margin_padding_16">16dp</dimen>
+    <dimen name="margin_padding_16_24">16dp</dimen>
+    <dimen name="icon_size_24">24dp</dimen>
+    <dimen name="profile_picture_small_40">40dp</dimen>
+    <dimen name="margin_padding_40">40dp</dimen>
+    <dimen name="margin_padding_toolbar_status_bar_16and25">16dp</dimen>
+    <dimen name="margin_padding_toolbar_status_bar_8andtoolbarand25">64dp</dimen>
+    <dimen name="margin_padding_48">48dp</dimen>
+    <dimen name="item_height_single_line_48_56">48dp</dimen>
+    <dimen name="item_height_avatar_single_line_56_64">56dp</dimen>
+    <dimen name="item_height_two_lines_72_80">72dp</dimen>
+    <dimen name="item_height_avatar_two_lines_72_80">72dp</dimen>
+    <dimen name="item_height_three_lines_88_96">88dp</dimen>
+    <dimen name="item_height_avatar_three_lines_88_96">88dp</dimen>
+    <dimen name="margin_padding_56_64">56dp</dimen>
+    <dimen name="profile_picture_64">64dp</dimen>
+    <dimen name="margin_padding_72">72dp</dimen>
+    <dimen name="margin_padding_72_80">72dp</dimen>
+    <dimen name="drawer_header_height">172dp</dimen>
+    <dimen name="navigation_drawer_width">300dp</dimen>
+    <dimen name="user_details_height">168dp</dimen>
+
+    <dimen name="fab_elevation">8dp</dimen>
+    <dimen name="fab_press_translation_z">9dp</dimen>
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="fab_size_small">40dp</dimen>
+    <dimen name="fab_icon_size">24dp</dimen>
+
+
+
+    <dimen name="logo_margin_top">24dp</dimen>
+    <dimen name="nav_padding_bottom">0dp</dimen>
+    <dimen name="margin_padding_96">96dp</dimen>
+    <dimen name="width_height_150dp">150dp</dimen>
+</resources>

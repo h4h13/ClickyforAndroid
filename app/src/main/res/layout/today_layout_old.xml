@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/content_frame"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:context=".MainActivity">
+
+            <include
+                android:id="@+id/app_bar"
+                layout="@layout/app_bar"/>
+
+            <LinearLayout
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="@dimen/margin_padding_16"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvVisitor"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/nothing_label"
+                    android:textColor="@android:color/darker_gray"
+                    android:textSize="100sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/label_visitors"
+                    android:textColor="?colorAccent"
+                    android:textSize="24sp"/>
+
+            </LinearLayout>
+
+
+           <!-- <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/margin_padding_8"
+                card_view:cardBackgroundColor="@android:color/white"
+                card_view:cardCornerRadius="3dp"
+                card_view:cardElevation="5dp">-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".5"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/HorizontalLinerLayout">
+
+                        <LinearLayout
+                            style="@style/VerticalLinerLayout">
+
+                            <TextView
+                                android:id="@+id/tvVisitorNew"
+                                style="@style/TextViewStyleCount"/>
+
+                            <TextView
+                                style="@style/TextViewStyle"
+                                android:text="@string/label_visitors_new"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/VerticalLinerLayout">
+
+                            <TextView
+                                android:id="@+id/tvUniqueVisitors"
+                                style="@style/TextViewStyleCount"/>
+
+                            <TextView
+                                style="@style/TextViewStyle"
+                                android:text="@string/label_visitors_unique"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/HorizontalLinerLayout">
+
+                        <LinearLayout
+                            style="@style/VerticalLinerLayout">
+
+                            <TextView
+                                android:id="@+id/tvActions"
+                                style="@style/TextViewStyleCount"/>
+
+                            <TextView
+                                style="@style/TextViewStyle"
+                                android:text="@string/label_actions"/>
+
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            style="@style/VerticalLinerLayout">
+
+
+                            <TextView
+                                android:id="@+id/tvAvgActions"
+                                style="@style/TextViewStyleCount"/>
+
+                            <TextView
+                                style="@style/TextViewStyle"
+                                android:text="@string/label_avg_actions"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/HorizontalLinerLayout">
+
+                        <LinearLayout style="@style/VerticalLinerLayout">
+
+
+                            <TextView
+                                android:id="@+id/tvActionsPageViews"
+                                style="@style/TextViewStyleCount"/>
+
+                            <TextView
+                                style="@style/TextViewStyle"
+                                android:text="@string/label_actions_page_views"/>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout style="@style/VerticalLinerLayout">
+
+
+                            <TextView
+                                android:id="@+id/tvActionsDownload"
+                                style="@style/TextViewStyleCount"/>
+
+                            <TextView
+                                style="@style/TextViewStyle"
+                                android:text="@string/label_actions_download"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/HorizontalLinerLayout">
+
+                        <LinearLayout
+                            style="@style/VerticalLinerLayout">
+
+
+                            <TextView
+                                android:id="@+id/tvActionsOutboundLinks"
+                                style="@style/TextViewStyleCount"/>
+
+                            <TextView
+                                style="@style/TextViewStyle"
+                                android:text="@string/label_actions_outbound_links"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/VerticalLinerLayout">
+
+
+                            <TextView
+                                android:id="@+id/tvActionsEvent"
+                                style="@style/TextViewStyleCount"/>
+
+                            <TextView
+                                style="@style/TextViewStyle"
+                                android:text="@string/label_actions_events"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout style="@style/HorizontalLinerLayout">
+
+                        <LinearLayout
+                            style="@style/VerticalLinerLayout">
+
+                            <TextView
+                                android:id="@+id/tvTotalTime"
+                                style="@style/TextViewStyleCount"/>
+
+                            <TextView
+                                style="@style/TextViewStyle"
+                                android:text="@string/label_total_time"/>
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/VerticalLinerLayout">
+
+
+                            <TextView
+                                android:id="@+id/tvAvgTimePerVisit"
+                                style="@style/TextViewStyleCount"/>
+
+                            <TextView
+                                style="@style/TextViewStyle"
+                                android:text="@string/label_avg_time_p_v"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvBounceRate"
+                            style="@style/TextViewStyleCount"/>
+
+                        <TextView
+                            style="@style/TextViewStyle"
+                            android:text="@string/label_bounce_rate"/>
+
+                    </LinearLayout>
+
+                </LinearLayout><!--
+            </android.support.v7.widget.CardView>-->
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

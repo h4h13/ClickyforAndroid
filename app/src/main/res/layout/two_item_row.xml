@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tool="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight=".3"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            tool:text="The biggest title biggest titlebiggest title biggest title"/>
+
+        <TextView
+            android:id="@+id/valueTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight=".7"
+            android:gravity="center"
+            android:textColor="@color/md_deep_orange_A200"
+            android:textSize="16sp"
+            tool:text="100"/>
+    </LinearLayout>
+</LinearLayout>

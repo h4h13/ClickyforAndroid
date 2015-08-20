@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="AppTheme.Base">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorAccent">@color/md_blue_A200</item>
+        <item name="android:colorPrimaryDark">@color/md_blue_700</item>
+        <item name="android:colorPrimary">@color/md_blue_500</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="Login" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:colorAccent">@color/md_blue_A200</item>
+        <item name="android:colorPrimary">@color/md_blue_500</item>
+    </style>
+
+    <style name="MyToolBar" parent="Theme.AppCompat.Light">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+    <style name="PopUpTheme" parent="Theme.AppCompat">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+</resources>

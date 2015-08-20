@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="nav_list">
+        <item>Today</item>
+        <item>Content</item>
+        <item>Links</item>
+        <item>Searches</item>
+        <item>Locale</item>
+        <item>Platforms</item>
+        <item>Engagement</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="others">
+        <item>Twitter</item>
+        <item>Traffic sources</item>
+        <item>Visitors most active</item>
+        <item>Goals</item>
+    </string-array>
+    <string-array name="eng_actions">
+        <item>Actions</item>
+        <item>Time</item>
+    </string-array>
+    <string-array name="content">
+        <item>Pages</item>
+        <item>Entrance</item>
+        <item>Exit</item>
+        <item>Downloads</item>
+        <item>Events</item>
+        <item>Video</item>
+    </string-array>
+
+    <string-array name="links_items">
+        <item>Incoming</item>
+        <item>Domains</item>
+        <item>Recent</item>
+        <item>Unique</item>
+        <item>Outgoing</item>
+    </string-array>
+
+    <string-array name="searches">
+        <item>Searches</item>
+        <item>Keywords</item>
+        <item>Recent</item>
+        <item>Unique</item>
+        <item>Ranking</item>
+        <item>Local</item>
+    </string-array>
+
+    <string-array name="locale">
+        <item>Countries</item>
+        <item>Cities</item>
+        <item>Languages</item>
+        <item>Organizations</item>
+        <item>HostNames</item>
+        <item>Regions</item>
+    </string-array>
+
+    <string-array name="platforms">
+        <item>Web Browsers</item>
+        <item>Operating System</item>
+        <item>Screen Resolution</item>
+        <item>Hardware</item>
+    </string-array>
+</resources>

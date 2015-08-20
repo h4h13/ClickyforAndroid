@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="TextViewStyleCount">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_weight">.8</item>
+        <item name="android:text">@string/nothing_label</item>
+        <item name="android:textSize">48sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextViewStyle">
+        <item name="android:padding">8dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/md_white_1000</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_weight">.2</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:padding">16dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:ems">10</item>
+    </style>
+
+    <style name="HorizontalLinerLayout">
+        <item name="android:layout_gravity">center</item>"
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="VerticalLinerLayout">
+        <item name="android:layout_weight">.5</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">192dp</item>
+    </style>
+
+
+    <style name="btnStyle">
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">24dp</item>
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+
+    </style>
+</resources>

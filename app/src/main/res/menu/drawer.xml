@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/label_today">
+        <menu>
+            <item
+                android:id="@+id/item_id_1"
+                android:icon="@drawable/ic_home_black_48dp"
+                android:title="@string/label_the_basics"/>
+
+        </menu>
+    </item>
+
+
+    <item android:title="@string/label_cat">
+        <menu>
+            <item
+                android:id="@+id/item_id_2"
+                android:icon="@drawable/ic_flag_black_48dp"
+                android:title="@string/label_content"/>
+            <item
+                android:id="@+id/item_id_3"
+                android:icon="@drawable/ic_link_black_48dp"
+                android:title="@string/label_links"/>
+            <item
+                android:id="@+id/item_id_4"
+                android:icon="@drawable/ic_search_black_48dp"
+                android:title="@string/label_searches"/>
+            <item
+                android:id="@+id/item_id_5"
+                android:icon="@drawable/ic_language_black_48dp"
+                android:title="@string/label_locale"/>
+            <item
+                android:id="@+id/item_id_6"
+                android:icon="@drawable/ic_phonelink_black_48dp"
+                android:title="@string/label_platforms"/>
+            <item
+                android:id="@+id/item_id_7"
+                android:icon="@drawable/ic_timer_black_48dp"
+                android:title="@string/label_eng"/>
+            <item
+                android:id="@+id/item_id_8"
+                android:icon="@drawable/ic_assessment_black_48dp"
+                android:title="@string/label_others"/>
+        </menu>
+    </item>
+
+    <item android:title="@string/label_others">
+        <menu>
+            <item
+                android:id="@+id/item_id_11"
+                android:icon="@drawable/ic_input_grey600_48dp"
+                android:title="@string/logout_label"/>
+            <item
+                android:id="@+id/item_id_10"
+                android:icon="@drawable/ic_help_grey600_48dp"
+                android:title="@string/label_about"/>
+            <item
+                android:id="@+id/item_id_9"
+                android:icon="@drawable/ic_tune_black_48dp"
+                android:title="@string/action_exit"/>
+        </menu>
+
+    </item>
+
+</menu>

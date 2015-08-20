@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.h4h13.clicky.ui.SplashScreenActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/width_height_150dp"
+        android:layout_height="@dimen/width_height_150dp"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_padding_96"
+        android:src="@drawable/ic_app_logo" />
+
+    <com.sharebuttons.analytics.fonts.RobotoLight
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_padding_96"
+        android:gravity="center"
+        android:text="@string/company_name"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="36sp" />
+</RelativeLayout>

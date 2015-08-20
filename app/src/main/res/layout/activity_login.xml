@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_frame"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.clicky.activities.LoginActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/toolbarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" />
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/_username_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbarLayout"
+        android:layout_marginBottom="@dimen/margin_padding_16"
+        android:layout_marginLeft="@dimen/margin_padding_16"
+        android:layout_marginRight="@dimen/margin_padding_16"
+        android:layout_marginTop="@dimen/margin_padding_16_24">
+
+        <EditText
+            android:id="@+id/_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/username_label"
+            android:padding="@dimen/margin_padding_16" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/_password_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/_username_layout"
+        android:layout_marginBottom="@dimen/margin_padding_16"
+        android:layout_marginLeft="@dimen/margin_padding_16"
+        android:layout_marginRight="@dimen/margin_padding_16">
+
+        <EditText
+            android:id="@+id/_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/password_label"
+            android:inputType="textPassword"
+            android:padding="@dimen/margin_padding_16" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/_login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/_password_layout"
+        android:layout_marginLeft="@dimen/margin_padding_16"
+        android:layout_marginRight="@dimen/margin_padding_16"
+        android:background="@drawable/btn_bg"
+        android:text="@string/login_label"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>
